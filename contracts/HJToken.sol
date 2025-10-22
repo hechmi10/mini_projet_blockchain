@@ -15,8 +15,8 @@ contract HJToken is ERC20, Ownable {
         ) Ownable(msg.sender)
     {
      
-        mint(msg.sender, 1_000_000 * 18**decimals());
-        emit TokensMinted(msg.sender, 1_000_000 * 18**decimals());
+        mint(msg.sender, 1000000 * 18**decimals());
+        emit TokensMinted(msg.sender, 1000000 * 18**decimals());
     }
 
     function mint(address to, uint256 amount) public onlyOwner {
