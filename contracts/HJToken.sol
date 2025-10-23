@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20; // Version stable recommandée pour Sepolia
+pragma solidity ^0.8.30; // Version stable recommandée pour Sepolia
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
